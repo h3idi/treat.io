@@ -1,10 +1,13 @@
 Treat::Application.routes.draw do
+  get "static_pages/jobs"
+
   devise_for :users
 
   root :to => 'static_pages#home'
 
   get "home" => "static_pages#home"
   get "about" => "static_pages#about"
+  get "jobs" => "static_pages#jobs"
 
 
   # The priority is based upon order of creation:
