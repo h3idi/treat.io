@@ -12,7 +12,14 @@
           <div class="navbar-inner">
             <div class="container">
               <%= link_to "Treat.io", root_path, id: "logo" %>
+              
+              <!-- this nav is the menue -->
               <nav>
+                <ul class="nav pull-left">
+                <li><%= link_to "Jobs", jobs_path %></li>
+                </ul>
+              <!-- this nav is the menue END -->
+              
                 <ul class="nav pull-right">
                     <% if user_signed_in? %>
                       <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
