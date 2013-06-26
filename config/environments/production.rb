@@ -20,6 +20,9 @@ Treat::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  config.gem 'rack-google-analytics', :lib => 'rack/google-analytics'
+  config.middleware.use Rack::GoogleAnalytics, :tracker => 'UA-41988756-1'
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 
