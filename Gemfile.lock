@@ -50,6 +50,8 @@ GEM
       multi_json (~> 1.0)
     hike (1.2.2)
     i18n (0.6.4)
+    intercom-rails (0.2.23)
+      activesupport (> 3.0)
     journey (1.0.4)
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
@@ -119,6 +121,7 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 3.2.1)
   devise
+  intercom-rails (~> 0.2.21)
   jquery-rails
   pg
   rack-google-analytics
