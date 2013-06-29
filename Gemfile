@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
-gem 'ruby', '1.9.2'
 gem 'devise'
 gem 'intercom-rails', '~> 0.2.21'
 gem "google-analytics-rails", "~> 0.0.4"
