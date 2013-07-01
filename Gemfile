@@ -3,11 +3,11 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'devise'
 gem 'intercom-rails', '~> 0.2.21'
+gem 'rack-google-analytics'
+
+
 # gem 'google-analytics-rails', '~> 0.0.4'
 
-group :development do
-	gem 'rack-google-analytics'
-end
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

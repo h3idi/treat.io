@@ -42,7 +42,7 @@ module Treat
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
 
-    # this is gem code; rake google analytics gem
+    # this is gem code, rake google analytics gem
     config.middleware.use Rack::GoogleAnalytics, :tracker => 'UA-41988756-1'
 
     # Use SQL instead of Active Record's schema dumper when creating the database.
